@@ -10,4 +10,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 2em;
+  flex-direction: column;
+
+}
+
+input {
+  width: 100%;
+  font-size: 1.1em;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right,yellow,red);
+   padding: 3em;
+   width: 75%;
+  
+}
+
+button {
+  align-self: start;
+  justify-self: start;
+}
+select{
+  font-size: .7em;
+}
+
+h1{
+margin-bottom: 1em;
+}
+
+button{
+  background: rgb(50, 152, 50);
+  border:none;
+  padding: 10px 25px;
+  color:#fff;
+  font-size: .7em;
 }
