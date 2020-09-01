@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>The Big Fat String</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div> <label for="input">Input: </label>
+      <input type="text" name='input' class='input'></div>
+
+
+    <select name="theme" id="selectionBar">
+      <option value="noOption"> No option selected
+      </option>
+      <option value="capitalize"> If input is a first name: Make the first character in a name
+        uppercase, and the rest lowercase
+      </option>
+      <option value="findFirstName"> If input is a full name: Find the first name
+      </option>
+      <option value="firstNameLength">If input is a full name: Find the length of the first name
+      </option>
+      <option value="middleName">If input is a full name: Find the middle name start and end
+        position,
+        and the middle name itself in a full name string</option>
+      <option value="pngOrJpg">If input is a filename: Check if a filename is .png or .jpg</option>
+      <option value="password">If input is a password: Hide a password with the correct number of *s
+      </option>
+      <option value="thierdCharUppercase">With any input: Make the third character in a name
+        uppercase
+      </option>
+      <option value="hyphen">With any input: Make a character uppercase, if it follows a space or a
+        hyphen</option>
+    </select>
+
+
+    <div>
+      <label for="output"> Output: </label>
+      <input name='output' type="text" id='output'>
+    </div>
+
+
+    <div>
+      <button id='button'>Generate Output</button>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
