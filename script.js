@@ -70,7 +70,7 @@ function selectOptions() {
         const restOf = name.substring(hyphenIndex + 2); //returns the rest of the name after a
 
         const glued = `${beggining}${letterAfter.toUpperCase()}${restOf}`
-        console.log(glued);
+        output.value = glued;
       }
 
 
